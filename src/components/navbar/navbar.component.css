@@ -1,0 +1,33 @@
+.navbar{
+  display : flex;
+  flex-direction : row;
+  justify-content: flex-start;
+  align-items : center;
+  background : none;
+  width : 100%;
+  gap : 5%;
+
+}
+.navbar_left{
+  display : flex;
+  flex-direction : row;
+  align-items: center;
+  color : white;
+  font-family : Mona-Sans-SemiBold, serif;
+  margin-top : 1%;
+}
+img {
+  padding-bottom: 25px;
+}
+.navbar__item-link{
+  text-decoration: none;
+  color : white;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto;
+  font-size: 15px;
+}
+
+@media screen and (min-width: 600px){
+  .navbar{
+    padding:2%;
+  }
+}

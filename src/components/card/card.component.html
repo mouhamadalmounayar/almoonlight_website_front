@@ -1,0 +1,17 @@
+<div appOnScroll  [property]="'transform'" [value_before]="'scale(1.1)'" [value_after]="'scale(1)'" [time]="0.8" style="width : 100% ; height:auto" class = card-container >
+  <div class = card-container-body>
+    <div class = card-container_text>
+      <div class = card-container_text-subdiv>
+        <div class = title>{{this.title}}</div>
+        <div class = body>{{this.body}}</div>
+      </div>
+      <div class = card-container_link>See it on github</div>
+    </div>
+      <div class = card-container_image>
+        <img appOnScroll [property]="'transform'" [value_before]="'scale(0.5)'" [value_after] = "'scale(1)'" [time]="0.5" [src]="image" alt = "">
+      </div>
+  </div>
+</div>
+
+
+

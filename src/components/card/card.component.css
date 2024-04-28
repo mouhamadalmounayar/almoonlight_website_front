@@ -1,0 +1,42 @@
+.card-container{
+  background : #161b22;
+  padding : 5%;
+  display : flex;
+  flex-direction: column;
+  color : white;
+  border-radius : 10px;
+  gap: 100px;
+  overflow: hidden;
+}
+.title{
+  font-family: Mona-Sans-SemiBold, serif;
+  font-size : 20px;
+}
+.card-container-body{
+  display : flex;
+  flex-direction : row;
+  justify-content: space-between;
+}
+.card-container_text{
+  display : flex;
+  flex-direction : column;
+  gap : 40%;
+  text-align : justify;
+}
+.card-container_text-subdiv{
+  display : flex;
+  flex-direction : column;
+  gap : 20px;
+}
+
+img {
+  width : 800px;
+  height : auto;
+  margin-left : 30%;
+  overflow : hidden;
+  border-radius : 10px;
+}
+.card-container_link{
+  font-family : Mona-Sans-SemiBold, serif;
+}
+

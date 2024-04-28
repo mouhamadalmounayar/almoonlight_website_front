@@ -1,0 +1,29 @@
+<div class = home-container>
+  <div class = home-container__main>
+    <div class = home-container__caption--title>
+      <span>Hi! I'm Al Mounayar Mouhamad.</span>
+      <span>A software engineering student based in France.</span>
+      <button class = home-container__button>Hire Me</button>
+    </div>
+  </div>
+  <div class = home-container__technologies-container>
+    <p class = home-container__technologies-container__caption-annotation>Technologies I am passionate about.</p>
+    <div class = home-container__technologies-container__image-container>
+      <img src="../../assets/technologies-logo/apache_kafka-ar21.svg" alt ="">
+      <img src="../../assets/technologies-logo/icons8-angularjs.svg" alt="">
+      <img src="../../assets/technologies-logo/icons8-docker.svg" alt ="">
+      <img src="../../assets/technologies-logo/icons8-kubernetes.svg" alt ="">
+      <img src="../../assets/technologies-logo/icons8-azure.svg" alt="">
+    </div>
+  </div>
+  <div class = background-image><img appOnScroll  [property]="'transform'" [value_before]="'scale(0.5)'" [value_after]="'scale(1)'" [time]="1" src = "./assets/images/Ellipse1-6.svg"></div>
+  <div class = home-container_cards>
+    <div class = home-container_cards--long>
+      <app-card class = home-container_cards_card [image] = "'./assets/images/azureVm.png'" [title] = "'Azure fundamentals'" [body]="'I configured my Azure virtual machine in order to deploy my stuff. I then discovered that I am too broke to keep paying for it. Now switching from the cloud to on premises.'"></app-card>
+    </div>
+    <div class = home-container_cards--row>
+      <app-card appRotate [angle]="20" class = home-container_cards_card [title] = "'Web development'" [body]="'Getting familiar with technologies like Angular , Express and Spring. I am also very interested in learning how to incorporate Kafka into my web applications.'"></app-card>
+      <app-card class = home-container_cards_card [title] = "'Data Structure and algorithms'" [body]="'Problem solving has always been a hobby of mine, so I am constantly expanding my knowledge on data structure and algorithms.'"></app-card>
+    </div>
+  </div>
+</div>

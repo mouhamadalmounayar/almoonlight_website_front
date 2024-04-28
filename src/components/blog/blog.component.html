@@ -1,0 +1,4 @@
+<div class = blog>
+  <div class = blog-container__title *ngIf="this.blog">{{this.blog.title}}</div>
+  <div class = blog-container__blogBody [innerHTML]="this.blog.blogBody | markedToHtml" *ngIf="this.blog"></div>
+</div>
