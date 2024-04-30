@@ -22,7 +22,6 @@ export class OnScrollDirective {
     this.observer = new IntersectionObserver(entries => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
-          console.log(entry);
           this.renderer.setStyle(entry.target, 'opacity' , '1')
           this.renderer.setStyle(entry.target , this.property , this.value_after)
           this.renderer.setStyle(entry.target, 'transition' , `all ease ${this.time}s`)
